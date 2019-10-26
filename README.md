@@ -3,7 +3,8 @@
 graph tutorial using graphiql
 https://www.linkedin.com/learning/graphql-essential-training
 
-#mutation stage 0
+# Sample data
+## mutation stage 0
 mutation{
 createFriend(input:{
 firstName:"Prasob"
@@ -26,7 +27,7 @@ lastName
 }
 }
 
-query stage 0
+## query stage 0
 query{
 getFriend(id:"3a89076c9a51edd34614"){
 firstName
