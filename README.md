@@ -36,3 +36,7 @@ firstName
 }
 }
 }
+
+# mongodb
+
+mongod --dbpath data/db --port 8081
